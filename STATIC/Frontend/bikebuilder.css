@@ -76,7 +76,38 @@ section h2 {
      margin-top: 40px;
     color: #F0EBDD;
     font-family: 'Manrope Light', sans-serif;
+    font-size: 25px;
     background-color: #344B3C;
     border-radius: 50px;
     border: 3px solid #606656;
+}
+.component-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 10px;
+}
+.brakes {
+    grid-column: 2;
+}
+.component-item {
+    background-color: #2c4133;
+    border-radius: 25px;
+    padding: 15px;
+    border: 3px solid #5b6152;
+}
+.component-item select {
+    cursor: pointer;
+    background-color: #344B3C;
+    border-radius: 15px;
+    border: 2px solid #606656;
+    color: #F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+}
+.component-item select:hover {
+    background-color: #abb899;
 }
