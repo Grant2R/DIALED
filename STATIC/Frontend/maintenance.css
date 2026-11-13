@@ -1,0 +1,18 @@
+body {
+    background-color: #303d2b;
+    margin: 0;
+}
+nav {
+    background-color: #242921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+}
+nav a {
+    color: #6d8563;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Manrope Light', sans-serif;
+}

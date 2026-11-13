@@ -1,0 +1,126 @@
+body {
+    background-color: #1b2520;
+    margin: 0;
+}
+nav {
+    background-color: #344B3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+     height: 100px;
+}
+nav a {
+    color: #F0EBDD;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Manrope Light', sans-serif;
+    background-color: #364231;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+    background-color: #A5AA9D;
+}
+nav img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+h1 {
+    color: #D5D8D0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+h2 {
+    color: #D5D8D0;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: 'Manrope Light', sans-serif;
+
+}
+.featured-bike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: #364231;
+    border-radius: 30px;
+    border: 3px solid #6d8563;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+.featured-bike img {
+    max-width: 400px;
+    object-fit: contain;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bike-info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #D5D8D0;
+    font-family: 'Manrope Light', sans-serif;
+}
+.model {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.make, .category, .wheels, .suspension {
+    background-color: #6d8563;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+.bike-specs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.other-bikes {
+    background-color: #364231;
+    border-radius: 30px;
+    border: 3px solid #6d8563;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.bike-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.bike-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #6d8563;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #D5D8D0;
+    font-family: 'Manrope Light', sans-serif;
+}
+.bike-card img {
+    display: block;
+    width: 150px;
+    height: auto;
+    max-height: 200px;
+}

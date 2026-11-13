@@ -1,0 +1,82 @@
+body {
+    background-color: #1b2520;
+    margin: 0;
+}
+nav {
+    background-color: #344B3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+     height: 100px;
+}
+nav a {
+    color: #F0EBDD;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Manrope Light', sans-serif;
+    background-color: #364231;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+    background-color: #A5AA9D;
+}
+nav img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+main h1 {
+    color: #F0EBDD;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 20px;
+}
+section h2 {
+    margin-top: 0px;
+    color: #F0EBDD;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Manrope Light', sans-serif;
+}
+.bike-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 700px;
+    min-height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #344B3C;
+    border-radius: 50px;
+    border: 3px solid #606656;
+}
+.bike-preview img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+.bike-info {
+    text-align: center;
+    color: #F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.components {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     margin-top: 40px;
+    color: #F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    background-color: #344B3C;
+    border-radius: 50px;
+    border: 3px solid #606656;
+}

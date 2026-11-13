@@ -1,0 +1,136 @@
+body {
+    background-color: #1b2520;
+    margin: 0;
+}
+nav {
+    background-color: #344B3C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+}
+nav a {
+    color: #F0EBDD;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Manrope Light', sans-serif;
+    background-color: #364231;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+    background-color: #A5AA9D;
+}
+nav a img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+h1 {
+    color: #F0EBDD;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+h2 {
+    color: #F0EBDD;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: 'Manrope Light', sans-serif;
+
+}
+p {
+    color: #D5D8D0;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'Manrope Light', sans-serif;
+    font-weight: 300;
+
+}
+img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+.stats {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.stat-card {
+    color: #D5D8D0;
+    font-family: 'Manrope Light', sans-serif; 
+    font-weight: 300;
+    background-color: #364231;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #78806d;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+     margin-bottom: 0px;
+    transition: transform, background-color 0.7s ease;
+    min-width: 150px;
+}
+.stat-card:hover {
+    transform: translateY(-7px);
+    background-color: #a5aa9d;
+}
+.stat-card h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.stat-card p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 0;
+}
+.bike-card img {
+    display: block;
+    width: 150px;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+.bike-card {
+    color: #D5D8D0;
+    font-family: 'Manrope Light', sans-serif; 
+    font-weight: 300;
+    background-color: #364231;
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid #78806d;
+    max-width: 700px;
+    text-align: center;
+    box-sizing: border-box;
+     margin-bottom: 0px;
+    transition: transform, background-color 0.7s ease;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.bike-card-specs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+.bike-card-specs p {
+    padding: 5px
+}
