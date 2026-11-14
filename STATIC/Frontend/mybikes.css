@@ -52,8 +52,8 @@ h2 {
     padding: 10px;
     gap: 20px;
     background-color: #364231;
-    border-radius: 30px;
-    border: 3px solid #6d8563;
+    border-radius: 15px;
+    border: 2px solid #78806d;
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
@@ -96,8 +96,8 @@ h2 {
 }
 .other-bikes {
     background-color: #364231;
-    border-radius: 30px;
-    border: 3px solid #6d8563;
+    border-radius: 15px;
+    border: 2px solid #78806d;
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
@@ -111,8 +111,9 @@ h2 {
 .bike-card {
     display: flex;
     flex-direction: row;
-    background-color: #6d8563;
-    border-radius: 20px;
+    background-color: #364231;
+    border-radius: 15px;
+    border: 2px solid #78806d;
     padding: 10px;
     text-align: center;
     color: #D5D8D0;

@@ -1,18 +1,31 @@
 body {
-    background-color: #303d2b;
+    background-color: #1b2520;
     margin: 0;
 }
 nav {
-    background-color: #242921;
+    background-color: #344B3C;
     display: flex;
     justify-content: center;
     align-items: center;
      gap: 20px;
+     height: 100px;
 }
 nav a {
-    color: #6d8563;
+    color: #F0EBDD;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
     font-family: 'Manrope Light', sans-serif;
+    background-color: #364231;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+    background-color: #A5AA9D;
+}
+nav img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
 }
