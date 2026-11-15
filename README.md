@@ -1,6 +1,6 @@
 # DIALED
-#CURRENT PHASE
-##PHASE-1
+# CURRENT PHASE
+## PHASE-1
 **Your mountain bike. Your maintenance. All dialed in.**
 
 DIALED is a mountain biking garage and maintenance platform designed to help riders manage their bikes, track component wear, record maintenance, and customize their dream builds.
