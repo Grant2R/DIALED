@@ -1,15 +1,18 @@
+
 body {
     background-color: #1b2520;
     margin: 0;
 }
+
 nav {
     background-color: #344B3C;
     display: flex;
     justify-content: center;
     align-items: center;
-     gap: 20px;
-     height: 100px;
+    gap: 20px;
+    height: 100px;
 }
+
 nav a {
     color: #F0EBDD;
     text-align: center;
@@ -20,15 +23,18 @@ nav a {
     border-radius: 30px;
     transition: background-color 0.5s ease;
 }
+
 nav a:hover {
     background-color: #A5AA9D;
 }
+
 nav img {
     display: block;
     width: 60px;
     height: auto;
     margin-left: 20px;
 }
+
 h1 {
     color: #D5D8D0;
     text-align: center;
@@ -37,19 +43,20 @@ h1 {
     font-family: 'Anton', sans-serif;
     border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
+
 h2 {
     color: #D5D8D0;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
     font-size: 50px;
     font-family: 'Manrope Light', sans-serif;
-
 }
+
 .featured-bike {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     gap: 20px;
     background-color: #364231;
     border-radius: 15px;
@@ -59,13 +66,15 @@ h2 {
     margin: 20px auto;
     box-sizing: border-box;
 }
+
 .featured-bike img {
     max-width: 400px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
     border-radius: 20px;
-    width: 100%;
-    box-sizing: border-box;
 }
+
 .bike-info {
     justify-content: center;
     display: flex;
@@ -74,19 +83,25 @@ h2 {
     color: #D5D8D0;
     font-family: 'Manrope Light', sans-serif;
 }
+
 .model {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.make, .category, .wheels, .suspension {
+
+.make,
+.category,
+.wheels,
+.suspension {
     background-color: #6d8563;
     padding: 10px;
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
-    margin: 0px;
+    margin: 0;
 }
+
 .bike-specs {
     display: flex;
     flex-direction: row;
@@ -94,6 +109,7 @@ h2 {
     gap: 10px;
     flex-wrap: wrap;
 }
+
 .other-bikes {
     background-color: #364231;
     border-radius: 15px;
@@ -101,16 +117,22 @@ h2 {
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 .bike-grid {
     display: grid;
     padding: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
 }
+
 .bike-card {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 15px;
     background-color: #364231;
     border-radius: 15px;
     border: 2px solid #78806d;
@@ -119,9 +141,47 @@ h2 {
     color: #D5D8D0;
     font-family: 'Manrope Light', sans-serif;
 }
+
 .bike-card img {
     display: block;
     width: 150px;
     height: auto;
     max-height: 200px;
+    object-fit: contain;
+}
+
+.bike-card-specs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    nav {
+        height: auto;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav img {
+        width: 45px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .bike-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bike-card {
+        flex-direction: column;
+    }
 }
