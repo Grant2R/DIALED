@@ -29,3 +29,84 @@ nav img {
     height: auto;
     margin-left: 20px;
 }
+.header {
+    color: #F0EBDD;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.profile-picture {
+    background-color: #344B3C;
+    color: rgba(209, 209, 207, 0.4);
+    font-size: 100px;
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    color:#F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto 0;
+    padding: 0;
+}
+.discipline {
+    color:#F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto 0;
+    padding: 0;
+}
+.rider-stats {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 18px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.level,
+.xp,
+.credits {
+    color: #F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #344B3C;
+    width: fit-content;
+    min-width: 140px;
+    margin: 0;
+    padding: 14px 24px;
+    border: 2px solid rgba(240, 235, 221, 0.18);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+hr {
+    width: 100%;
+    margin: 30px auto 12px;
+    border: 0;
+    border-top: 2px solid rgba(240, 235, 221, 0.35);
+}
+.rider-stats h1 {
+    color: #F0EBDD;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 15px;
+}

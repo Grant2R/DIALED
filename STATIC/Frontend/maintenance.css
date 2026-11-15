@@ -63,8 +63,61 @@ nav img {
     border: 2px solid #78806d;
     border-radius: 15px;
     padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    gap: 2px;
+    
+}
+.stat-number {
+    color: #F0EBDD;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+}
+.stat-label {
+    color: #F0EBDD;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+}
+.stat-number p,
+.stat-label h3 {
+    margin: 5px;
+    line-height: 1;
+}
+hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #78806d;
+}
+.your-bikes h2 {
+    color: #F0EBDD;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.bike {
+    color:#F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    background-color: #344B3C;
+    border-radius: 15px;
+    border: 2px solid #78806d;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-grow: ;
+    gap: 2px;
+    margin-top: 20px;
+}
+.bike h4,
+.bike p {
+    margin: 4px 0;
+    padding: 5px;
 }
