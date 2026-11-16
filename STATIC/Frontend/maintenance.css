@@ -1,15 +1,18 @@
+
 body {
     background-color: #1b2520;
     margin: 0;
 }
+
 nav {
     background-color: #344B3C;
     display: flex;
     justify-content: center;
     align-items: center;
-     gap: 20px;
-     height: 100px;
+    gap: 20px;
+    height: 100px;
 }
+
 nav a {
     color: #F0EBDD;
     text-align: center;
@@ -20,19 +23,19 @@ nav a {
     border-radius: 30px;
     transition: background-color 0.5s ease;
 }
+
 nav a:hover {
     background-color: #A5AA9D;
 }
+
 nav img {
     display: block;
     width: 60px;
     height: auto;
     margin-left: 20px;
 }
+
 .header {
-    background-color: #364231;
-    border-radius: 15px;
-    border: 2px solid #78806d;
     max-width: 900px;
     margin: auto;
     margin-top: 10px;
@@ -40,27 +43,38 @@ nav img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
+
 .header h2 {
     color: #F0EBDD;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+    margin-bottom: 4px;
 }
+
 .header p {
     color: #F0EBDD;
     font-family: 'Manrope Light', sans-serif;
-    font-weight: 600;
-    margin-top: 0px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+#header-divider {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-top: 2px solid #78806d;
+}
+
 .maintenance-stats {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 0px;
 }
+
 .stat-card {
     background-color: #344B3C;
-    border: 2px solid #78806d;
     border-radius: 15px;
     padding: 10px;
     margin-right: 20px;
@@ -69,10 +83,10 @@ nav img {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    align-items: flex-start;
+    align-items: center;
     gap: 2px;
-    
 }
+
 .stat-number {
     color: #F0EBDD;
     font-family: 'Anton', sans-serif;
@@ -80,6 +94,7 @@ nav img {
     margin: 0;
     line-height: 1;
 }
+
 .stat-label {
     color: #F0EBDD;
     font-family: 'Lato', sans-serif;
@@ -87,37 +102,126 @@ nav img {
     margin: 0;
     line-height: 1;
 }
+
 .stat-number p,
 .stat-label h3 {
     margin: 5px;
     line-height: 1;
 }
-hr {
+
+#bikes-divider {
     width: 100%;
-    border: none;
-    border-top: 2px solid #78806d;
+    margin: 10px 0;
+    border: 0;
+    border-top: 2px solid rgba(240, 235, 221, 0.35);
 }
-.your-bikes h2 {
-    color: #F0EBDD;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-}
-.bike {
-    color:#F0EBDD;
-    font-family: 'Manrope Light', sans-serif;
-    background-color: #344B3C;
-    border-radius: 15px;
-    border: 2px solid #78806d;
-    max-width: 400px;
-    margin: auto;
+
+.your-bikes {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    margin-top: 20px;
+    align-items: flex-start;
+    background-color: #344B3C;
+    width: 98%;
+    max-width: 1000px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #F0EBDD;
+    font-family: 'Manrope Light', sans-serif;
+    position: relative;
 }
+
+.your-bikes h2 {
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+.bike {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bike-due-soon p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #882424;
+    border: 2px solid #b34b4b;
+    color: #F0EBDD;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.maintenance-due-soon {
+    position: absolute;
+    top: 140px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 4px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.due-card,
+.up-to-date-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    color: #F0EBDD;
+    box-sizing: border-box;
+    margin: 0;
+    flex-shrink: 0;
+    gap: 2px;
+}
+
+.due-card p,
+.up-to-date-card p {
+    margin: 0;
+}
+
 .bike h4,
-.bike p {
-    margin: 4px 0;
-    padding: 5px;
+.maintenance-overview h4 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+
+.bike p,
+.maintenance-overview p {
+    margin: 0 0 5px 0;
+}
+
+.your-bikes hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(240, 235, 221, 0.25);
+    margin: 10px 0;
+}
+
+.maintenance-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
 }
